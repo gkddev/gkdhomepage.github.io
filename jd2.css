@@ -1,0 +1,96 @@
+html,body{
+    height: 100%
+    margin:0px;
+}
+body {
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+}
+
+/*h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}*/
+
+h2 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+.container{
+    display: flex;
+     flex-direction:column;
+    
+    
+    height: auto;
+    margin:0px;
+    align-items:center;
+     justify-content:center;
+    /*min-height: 50em;*/
+}
+.txt{color: white;
+    font-size:2.0em;
+    margin:0px;
+}
+.clock
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self:center;
+    align-items: center;
+    font-size: 5em;
+    margin: 0px;
+}
+
+.input{
+     border: none;
+    border-bottom: 2px solid red;
+    padding: 0.4em 0.25em;
+    width: 50%;
+    background:transparent; ;
+    color:white;
+    font-size: 1.2em;
+   
+}
+.button{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+h1{font: 'Raleway';
+    color: white;
+}
+#greetings{
+    border-bottom: 2px solid white;
+}
+
+.done {
+  text-decoration: line-through #ff3c3c;
+}
+ul,li{
+    margin: auto;
+    margin-left: 0px;
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+}
