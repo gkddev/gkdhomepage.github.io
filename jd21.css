@@ -94,3 +94,7 @@ ul,li{
 ul{
     list-style-type: none;
 }
+.backgroundOption{
+    color: white;
+    display: inline;
+}
